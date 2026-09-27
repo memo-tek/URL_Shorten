@@ -1,0 +1,17 @@
+{
+  "name": "codealpha-url-shortener",
+  "version": "1.0.0",
+  "description": "Simple URL Shortener backend built with Express and PostgreSQL for the CodeAlpha internship",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg": "^8.12.0",
+    "nanoid": "^3.3.7"
+  }
+}
